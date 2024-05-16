@@ -1,0 +1,20 @@
+.add-properties{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;	
+}
+.add-properties__list{
+	display: grid;
+	gap: 12px;	
+}
+
+
+.lang:not(:last-child)::after{
+	content: " ,";
+
+}
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}

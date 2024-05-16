@@ -1,0 +1,26 @@
+
+.gues-reviews{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.gues-reviews__name{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.gues-reviews__rating{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+}
+.gues-reviews__header{
+	display: flex;
+	justify-content: space-between;
+}
+.gues-reviews__text{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	text-align: justify;	
+}

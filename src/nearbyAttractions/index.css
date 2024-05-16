@@ -1,0 +1,13 @@
+.near-by-attractions{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.near-by-attractions__list{
+	display: grid;
+	gap: 12px;
+}
+.near-by-attractions__link{
+	color: #000;
+	font-size: 16px;
+}
